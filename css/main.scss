@@ -1,0 +1,12 @@
+//colors
+$black: #2f2f2f; 
+$grey: #f7f7f7;
+$green: #98bc5c;
+
+//setups
+@import "_misc/layout";
+
+
+//blocks
+@import "blocks/header";
+@import "blocks/maincontent"
