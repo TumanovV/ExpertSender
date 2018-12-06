@@ -7,6 +7,7 @@ body{
 
 body{
   font-size: 12px;
+  font-weight: bold;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,4 +70,9 @@ footer{
 
 *{
   box-sizing: border-box;
+}
+
+p{
+  margin: 0;
+  padding: 0;
 }
