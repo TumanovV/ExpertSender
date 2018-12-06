@@ -1,4 +1,16 @@
 .maincontent{
   background-color: #fff;
-
+  position: relative;
+  width: 480px;
+  margin: 0 auto;
+  &::before{
+    content: "";
+    display: block;
+    height: 26px;
+    background:#fff;
+    position: absolute;
+    left: -61px;
+    width: 602px;
+    top: -26px;
+  }
 }

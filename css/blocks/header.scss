@@ -2,4 +2,81 @@
   background: $green;
   background-image: url('../images/icons.png');
   background-size: contain;
+  display: flex;
+ 
+}
+
+.cols{
+  display: flex;
+  padding: 28px 0 0 0;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+.header__col{
+  display: flex;
+  flex: 1;
+  &_left{
+    justify-content: flex-end;
+  }
+}
+
+.breadcrumbs{
+  display: flex;
+}
+
+.breadcrumbs__link{
+  color: #fff;
+}
+
+.breadcrumbs__item:after{
+  content: "/";
+  padding: 0 2px;
+  color: #fff;
+}
+.breadcrumbs__item:last-child:after{
+  display: none;
+}
+.header__title{
+  color: #fff;
+  padding-bottom: 48px;
+  padding-left: 64px;
+}
+
+.title{
+  font-size: 26px;
+}
+.title__desc{
+  font-size: 20px;
+}
+
+.hello__image{
+ width: 75%;
+}
+.hello__image-pic{
+  max-width: 100%;
+  display: block;
+}
+
+.new-block{
+  display: flex;
+  justify-content: center;
+}
+
+.hello__description{
+  font-weight: bold;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+.catalog{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog__item{
+  width: 50%;
 }
