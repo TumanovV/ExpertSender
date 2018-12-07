@@ -52,11 +52,17 @@ body{
 .button{
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  padding: 22px 0;
+  
   
   .btn__link{
     width: 219px;
     height: 52px;
+    transition: .3s;
+
+    &:hover{
+      transform: scale(1.1);
+    }
     
     .btn__pic{
       max-width: 100%;

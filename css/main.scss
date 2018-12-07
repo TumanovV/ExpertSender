@@ -3,8 +3,14 @@ $black: #2f2f2f;
 $grey: #f7f7f7;
 $green: #98bc5c;
 
+//resolutions
+$tablets: 768px;
+$phonesY: 480px;
+$phonesX: 320px;
+
 //setups
 @import "_misc/normalize";
+@import "_misc/media";
 @import "_misc/layout";
 
 //blocks

@@ -1,6 +1,7 @@
 .footer{
   height: 90px;
   margin-top: -90px;
+  position: relative;  
 }
 
 .footer__string{
@@ -38,4 +39,8 @@
 .socials__pic{
   width: 20px;
   height: 20px;
+  transition: .3s;
+  &:hover{
+    transform: scale(1.2);
+  }
 }

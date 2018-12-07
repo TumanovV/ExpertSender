@@ -353,10 +353,17 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 40px 0; }
+  padding: 22px 0; }
   .button .btn__link {
     width: 219px;
-    height: 52px; }
+    height: 52px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .button .btn__link:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
     .button .btn__link .btn__pic {
       max-width: 100%;
       display: block; }
@@ -399,7 +406,8 @@ p {
   background-image: url("../images/icons.png");
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  position: relative; }
 
 .header__col-logo {
   width: 125px;
@@ -417,7 +425,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 52px; }
+  margin-bottom: 30px; }
 
 .header__col {
   display: -webkit-box;
@@ -434,7 +442,8 @@ p {
 .breadcrumbs {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  font-size: 10px; }
 
 .breadcrumbs__link {
   color: #fff; }
@@ -453,18 +462,18 @@ p {
   padding-left: 64px; }
 
 .title {
-  font-size: 26px;
-  font-weight: bold; }
+  font-size: 26px; }
 
 .title__desc {
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: normal; }
 
 .white-block {
   height: 27px;
   background-color: #fff; }
 
 .hello__image {
-  width: 75%; }
+  width: 100%; }
 
 .hello__image-pic {
   max-width: 100%;
@@ -480,7 +489,9 @@ p {
 
 .hello__description {
   font-weight: bold;
-  margin-top: 38px; }
+  margin-top: 38px;
+  margin-bottom: 16px;
+  line-height: 1.2; }
 
 .hello__desc-name {
   font-size: 14px;
@@ -513,22 +524,25 @@ p {
   display: block; }
 
 .catalog__desc {
-  padding: 0 0 0 10px;
-  margin-bottom: 20px; }
+  padding: 9px 0 0 10px;
+  margin-bottom: 11px; }
+
+.catalog__link {
+  width: 128px;
+  height: 40px; }
 
 .catalog__link-img {
   display: block;
   max-width: 100%; }
 
 .catalog__btn {
-  width: 128px;
-  height: 40px;
   margin-left: 10px;
   margin-top: auto; }
 
 .footer {
   height: 90px;
-  margin-top: -90px; }
+  margin-top: -90px;
+  position: relative; }
 
 .footer__string_green {
   background: url("../../images/bkcg.png") center center no-repeat; }
@@ -565,7 +579,14 @@ p {
 
 .socials__pic {
   width: 20px;
-  height: 20px; }
+  height: 20px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  .socials__pic:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
 
 .trifle__cat {
   display: -webkit-box;
@@ -576,7 +597,8 @@ p {
   justify-content: center; }
 
 .trifle__desc {
-  margin-bottom: 37px; }
+  margin-bottom: 37px;
+  margin-top: 5px; }
 
 .trifle__desc-site__link {
   color: #2f2f2f; }
