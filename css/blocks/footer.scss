@@ -1,0 +1,41 @@
+.footer{
+  height: 90px;
+  margin-top: -90px;
+}
+
+.footer__string{
+  &_green{
+    background: url('../../images/bkcg.png') center center no-repeat;
+  }
+  &_grey{
+    background-color: #cfcece;
+    display: flex;
+    justify-content: center;
+  
+  }
+}
+
+.footer__desc{
+  max-width: 429px;
+  font-size: 8px;
+  text-align: center;
+  padding: 17px 0;
+}
+
+.socials{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 61px;
+  align-items: center;
+}
+
+.socials__item{
+  display: inline-block;
+}
+
+
+
+.socials__pic{
+  width: 20px;
+  height: 20px;
+}

@@ -12,7 +12,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background-color: grey;
+  background-color:$grey;
   font-family: 'Lato', sans-serif;
   color: $black;
 }
@@ -34,8 +34,41 @@ body{
   position: relative;
   width: 100%;
   overflow: hidden;
-  
+  min-height: 100%;
+  &:after{
+    content: "";
+    display: block;
+    height: 90px;
+  }
 }
+.maincontent{
+  background-color: #fff;
+  position: relative;
+  width: 480px;
+  margin: 0 auto;
+}
+
+
+.button{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  
+  .btn__link{
+    width: 219px;
+    height: 52px;
+    
+    .btn__pic{
+      max-width: 100%;
+      display: block;
+    }
+  }
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 
 h1,
 h2,
@@ -43,8 +76,7 @@ h3,
 h4,
 h5,
 h6{
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   font-weight: normal;
 }
 
@@ -56,12 +88,10 @@ table{
 ul{
   padding: 0;
   margin: 0;
-  
-}
-
-li{
   list-style: none;
 }
+
+
 
 footer{
   position: relative;
@@ -76,3 +106,8 @@ p{
   margin: 0;
   padding: 0;
 }
+
+// img:not([width]):not([height]) {
+//   border: 2px solid red !important;
+// }
+

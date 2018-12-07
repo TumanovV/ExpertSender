@@ -1,12 +1,23 @@
 .header{
   background: $green;
   background-image: url('../images/icons.png');
-  background-size: contain;
   display: flex;
  
 }
 
-.cols{
+
+.header__col-logo{
+  width: 125px;
+  height: 38px;
+}
+
+.logo{
+  max-width: 100%;
+  display: block;
+}
+
+
+.header-cols{
   display: flex;
   padding: 28px 0 0 0;
   align-items: center;
@@ -31,7 +42,7 @@
 
 .breadcrumbs__item:after{
   content: "/";
-  padding: 0 2px;
+  padding: 0 7px;
   color: #fff;
 }
 .breadcrumbs__item:last-child:after{
@@ -45,88 +56,13 @@
 
 .title{
   font-size: 26px;
+  font-weight: bold;
 }
 .title__desc{
   font-size: 20px;
 }
 
-.hello__image{
- width: 75%;
-}
-.hello__image-pic{
-  max-width: 100%;
-  display: block;
-}
-
-.new-block{
-  display: flex;
-  justify-content: center;
-}
-
-.hello__description{
-  font-weight: bold;
-}
-
-.button{
-  display: flex;
-  justify-content: center;
-}
-
-.catalog{
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -25px;
-}
-
-.catalog__item{
-  width: 45%;
-  margin-right: 25px;
-  &:nth-child(even){
-    margin-right: 0;
-  }
-}
-
-.catalog__desc{
-  padding: 0 0 0 10px;
-}
-
-.footer__string{
-  &_green{
-    background: url('../../images/bkcg.png') center center no-repeat;
-  }
-  &_grey{
-    background-color: #cfcece;
-    display: flex;
-    justify-content: center;
-  
-  }
-}
-
-.footer__desc{
-  max-width: 429px;
-  font-size: 8px;
-  text-align: center;
-}
-
-.socials{
-  display: flex;
-  justify-content:space-around;
-  padding: 5px 0;
-  align-items: center;
-}
-
-.socials__item{
-  display: inline-block;
-}
-.socials__pic{
-  width: 20px;
-  height: 20px;
-}
-.trifle__cat{
-  display: flex;
-  justify-content: center;
-}
-.cat__img{
-  display: block;
-  max-width: 100%;
+.white-block{
+  height: 27px;
+  background-color: #fff;
 }

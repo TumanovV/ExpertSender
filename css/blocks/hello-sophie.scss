@@ -1,0 +1,23 @@
+.hello__image{
+  width: 75%;
+ }
+
+ .hello__image-pic{
+   max-width: 100%;
+   display: block;
+ }
+
+ .hello__main-img{
+  display: flex;
+  justify-content: center;
+}
+
+.hello__description{
+  font-weight: bold;
+  margin-top: 38px;
+}
+
+.hello__desc-name{
+  font-size: 14px;
+  margin-bottom: 14px;
+}

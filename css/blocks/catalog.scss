@@ -1,0 +1,38 @@
+.catalog{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -25px;
+}
+
+.catalog__item{
+  width: 45%;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &:nth-child(even){
+    margin-right: 0;
+  }
+}
+
+.catalog__pic{
+  max-width: 100%;
+  display: block;
+}
+
+.catalog__desc{
+  padding: 0 0 0 10px;
+  margin-bottom: 20px;
+}
+
+.catalog__link-img{
+  display: block;
+  max-width: 100%;
+}
+.catalog__btn{
+  width: 128px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: auto;
+}

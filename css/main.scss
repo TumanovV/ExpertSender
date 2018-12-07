@@ -4,10 +4,12 @@ $grey: #f7f7f7;
 $green: #98bc5c;
 
 //setups
-@import "_misc/layout";
 @import "_misc/normalize";
-
+@import "_misc/layout";
 
 //blocks
 @import "blocks/header";
-@import "blocks/maincontent"
+@import "blocks/hello-sophie";
+@import "blocks/catalog";
+@import "blocks/footer";
+@import "blocks/trifle"
