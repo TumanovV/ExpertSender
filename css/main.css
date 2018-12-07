@@ -303,9 +303,6 @@ html,
 body {
   height: 100%; }
 
-html {
-  font-size: 16px; }
-
 body {
   font-size: 12px;
   font-weight: bold;
@@ -345,7 +342,7 @@ body {
 .maincontent {
   background-color: #fff;
   position: relative;
-  width: 480px;
+  max-width: 480px;
   margin: 0 auto; }
 
 .button {
@@ -355,7 +352,8 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 22px 0; }
+  padding-top: 22px;
+  padding-bottom: 22px; }
   .button .btn__link {
     display: inline-block;
     width: 219px;
@@ -429,6 +427,12 @@ p {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 30px; }
+  @media screen and (max-width: 480px) {
+    .header-cols {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .header__col {
   display: -webkit-box;
@@ -463,6 +467,10 @@ p {
   color: #fff;
   padding-bottom: 48px;
   padding-left: 64px; }
+  @media screen and (max-width: 480px) {
+    .header__title {
+      padding-left: 0;
+      text-align: center; } }
 
 .title {
   font-size: 26px; }
@@ -495,6 +503,10 @@ p {
   margin-top: 38px;
   margin-bottom: 16px;
   line-height: 1.2; }
+  @media screen and (max-width: 480px) {
+    .hello__description {
+      text-align: center;
+      padding: 0 25px; } }
 
 .hello__desc-name {
   font-size: 14px;
@@ -506,7 +518,11 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -25px; }
+  margin-right: -25px;
+  width: 100%; }
+  @media screen and (max-width: 480px) {
+    .catalog {
+      margin-top: 40px; } }
 
 .catalog__item {
   width: 45%;
@@ -521,14 +537,26 @@ p {
   flex-direction: column; }
   .catalog__item:nth-child(even) {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .catalog__item {
+      width: 100%;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-right: 0; } }
 
 .catalog__pic {
   max-width: 100%;
   display: block; }
 
 .catalog__desc {
-  padding: 9px 0 0 10px;
+  padding-top: 9px;
+  padding-left: 10px;
   margin-bottom: 11px; }
+  @media screen and (max-width: 480px) {
+    .catalog__desc {
+      text-align: center;
+      padding: 5px 36px; } }
 
 .catalog__link {
   width: 128px;
@@ -613,6 +641,9 @@ p {
 .trifle__desc {
   margin-bottom: 37px;
   margin-top: 5px; }
+  @media screen and (max-width: 480px) {
+    .trifle__desc {
+      text-align: center; } }
 
 .trifle__desc-site__link {
   color: #2f2f2f; }

@@ -2,6 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   margin-right: -25px;
+  width: 100%;
+
+  @include phonesY{
+    margin-top: 40px;
+  }
 }
 
 .catalog__item{
@@ -14,6 +19,13 @@
   &:nth-child(even){
     margin-right: 0;
   }
+
+  @include phonesY{
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+  }
+
 }
 
 .catalog__pic{
@@ -22,8 +34,15 @@
 }
 
 .catalog__desc{
-  padding: 9px 0 0 10px;
+  
+  padding-top: 9px;
+  padding-left: 10px;
   margin-bottom: 11px;
+
+  @include phonesY{
+    text-align: center;
+    padding: 5px 36px;
+  }
 }
 
 .catalog__link{

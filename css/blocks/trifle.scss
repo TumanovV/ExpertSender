@@ -5,6 +5,10 @@
 .trifle__desc{
   margin-bottom: 37px;
   margin-top: 5px;
+  
+  @include phonesY{
+    text-align: center;
+  }
 }
 .trifle__desc-site__link{
   color: $black;
