@@ -1,8 +1,11 @@
 html,
 body{
   height: 100%;
-  width: 100%;
-  
+ 
+}
+
+html{
+  font-size: 16px;
 }
 
 body{
@@ -56,12 +59,13 @@ body{
   
   
   .btn__link{
+    display: inline-block;
     width: 219px;
     height: 52px;
     transition: .3s;
 
     &:hover{
-      transform: scale(1.1);
+      transform: translateX(10px);
     }
     
     .btn__pic{

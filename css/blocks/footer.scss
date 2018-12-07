@@ -6,7 +6,7 @@
 
 .footer__string{
   &_green{
-    background: url('../../images/bkcg.png') center center no-repeat;
+    background: url('../images/bkcg.png') center center no-repeat;
   }
   &_grey{
     background-color: #cfcece;
@@ -34,7 +34,9 @@
   display: inline-block;
 }
 
-
+.socials__link{
+  display: inline-block;
+}
 
 .socials__pic{
   width: 20px;

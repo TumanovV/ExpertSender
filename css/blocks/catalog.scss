@@ -29,6 +29,11 @@
 .catalog__link{
   width: 128px;
   height: 40px;
+  display: inline-block;
+  transition: .3s;
+  &:hover{
+    transform: translateX(10px);
+  }
 }
 
 .catalog__link-img{

@@ -8,9 +8,11 @@ $tablets: 768px;
 $phonesY: 480px;
 $phonesX: 320px;
 
+//media
+@import "_misc/media";
+
 //setups
 @import "_misc/normalize";
-@import "_misc/media";
 @import "_misc/layout";
 
 //blocks
