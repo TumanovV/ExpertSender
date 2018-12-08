@@ -29,7 +29,7 @@ body{
     background-color: #fff;
   }
 
-  @include phonesY{
+  @include phones{
     width: 100%;
   }
 }
@@ -39,6 +39,7 @@ body{
   width: 100%;
   overflow: hidden;
   min-height: 100%;
+  
   &:after{
     content: "";
     display: block;
@@ -51,41 +52,13 @@ body{
   max-width: 480px;
   margin: 0 auto;
 
-  @include phonesY{
+  @include phones{
     padding: 0 10px;
   }
 }
 
 
-.button{
-  display: flex;
-  justify-content: center;
-  padding-top: 22px;
-  padding-bottom: 22px;
 
-
-  
-  
-  .btn__link{
-    display: inline-block;
-    width: 219px;
-    height: 52px;
-    transition: .3s;
-
-    &:hover{
-      transform: translateX(10px);
-    }
-    
-    .btn__pic{
-      max-width: 100%;
-      display: block;
-    }
-  }
-}
-
-a:hover{
-  text-decoration: none;
-}
 
 
 h1,
@@ -124,8 +97,4 @@ p{
   margin: 0;
   padding: 0;
 }
-
-// img:not([width]):not([height]) {
-//   border: 2px solid red !important;
-// }
 

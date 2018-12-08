@@ -16,13 +16,6 @@
   }
 }
 
-.footer__desc{
-  max-width: 429px;
-  font-size: 8px;
-  text-align: center;
-  padding: 17px 0;
-}
-
 .socials{
   display: flex;
   justify-content: space-between;
@@ -46,3 +39,12 @@
     transform: scale(1.2);
   }
 }
+
+
+.footer__desc{
+  max-width: 429px;
+  font-size: 8px;
+  text-align: center;
+  padding: 17px 0;
+}
+

@@ -1,18 +1,20 @@
-.trifle__cat{
-  display: flex;
-  justify-content: center;
-}
 .trifle__desc{
   margin-bottom: 37px;
   margin-top: 5px;
   
-  @include phonesY{
+  @include phones{
     text-align: center;
   }
 }
 .trifle__desc-site__link{
   color: $black;
 }
+
+.trifle__cat{
+  display: flex;
+  justify-content: center;
+}
+
 .trifle__cat-img{
   width: 217px;
   height: 92px;

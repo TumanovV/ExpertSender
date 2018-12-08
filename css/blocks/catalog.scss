@@ -4,7 +4,7 @@
   margin-right: -25px;
   width: 100%;
 
-  @include phonesY{
+  @include phones{
     margin-top: 40px;
   }
 }
@@ -20,12 +20,17 @@
     margin-right: 0;
   }
 
-  @include phonesY{
+  @include phones{
     width: 100%;
     align-items: center;
     margin-right: 0;
   }
 
+}
+
+.catalog__image{
+  width: 216px;
+  height: 394px;
 }
 
 .catalog__pic{
@@ -39,11 +44,22 @@
   padding-left: 10px;
   margin-bottom: 11px;
 
-  @include phonesY{
+  @include phones{
     text-align: center;
     padding: 5px 36px;
   }
 }
+
+.catalog__btn{
+ 
+  margin-left: 10px;
+  margin-top: auto;
+
+  @include phones{
+    margin-left: 0;
+  }
+}
+
 
 .catalog__link{
   width: 128px;
@@ -58,9 +74,4 @@
 .catalog__link-img{
   display: block;
   max-width: 100%;
-}
-.catalog__btn{
- 
-  margin-left: 10px;
-  margin-top: auto;
 }

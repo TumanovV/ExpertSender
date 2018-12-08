@@ -4,9 +4,8 @@ $grey: #f7f7f7;
 $green: #98bc5c;
 
 //resolutions
-$tablets: 768px;
-$phonesY: 480px;
-$phonesX: 320px;
+$phones: 480px;
+
 
 //media
 @import "_misc/media";
@@ -19,5 +18,5 @@ $phonesX: 320px;
 @import "blocks/header";
 @import "blocks/hello-sophie";
 @import "blocks/catalog";
+@import "blocks/trifle";
 @import "blocks/footer";
-@import "blocks/trifle"

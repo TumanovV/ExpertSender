@@ -1,3 +1,12 @@
+
+
+ .hello__main-img{
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .hello__image{
   width: 100%;
  }
@@ -7,18 +16,13 @@
    display: block;
  }
 
- .hello__main-img{
-  display: flex;
-  justify-content: center;
-}
-
 .hello__description{
   font-weight: bold;
   margin-top: 38px;
   margin-bottom: 16px;
   line-height: 1.2;
   
-  @include phonesY{
+  @include phones{
     text-align: center;
     padding: 0 25px;
   }
@@ -27,4 +31,34 @@
 .hello__desc-name{
   font-size: 14px;
   margin-bottom: 14px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+
+  
+  
+  .btn__link{
+    display: inline-block;
+    width: 219px;
+    height: 52px;
+    transition: .3s;
+
+    &:hover{
+      transform: translateX(10px);
+    }
+    
+    .btn__pic{
+      max-width: 100%;
+      display: block;
+    }
+  }
+}
+
+a:hover{
+  text-decoration: none;
 }
