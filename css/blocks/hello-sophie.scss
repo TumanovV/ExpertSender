@@ -56,7 +56,13 @@
       max-width: 100%;
       display: block;
     }
+    
+    @include phones320{
+      width: 155px;
+    }
   }
+  
+  
 }
 
 a:hover{

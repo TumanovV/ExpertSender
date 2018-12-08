@@ -384,7 +384,7 @@ p {
 .header {
   position: relative;
   background: #98bc5c;
-  background-image: url("../images/icons.png");
+  background-image: url("../images/icons/icons.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -515,6 +515,9 @@ p {
     .button .btn__link .btn__pic {
       max-width: 100%;
       display: block; }
+    @media screen and (max-width: 320px) {
+      .button .btn__link {
+        width: 155px; } }
 
 a:hover {
   text-decoration: none; }
