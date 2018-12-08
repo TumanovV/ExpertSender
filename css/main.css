@@ -328,6 +328,9 @@ body {
   flex-direction: column; }
   .container_white {
     background-color: #fff; }
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 100%; } }
 
 .wrapper {
   position: relative;
@@ -344,6 +347,9 @@ body {
   position: relative;
   max-width: 480px;
   margin: 0 auto; }
+  @media screen and (max-width: 480px) {
+    .maincontent {
+      padding: 0 10px; } }
 
 .button {
   display: -webkit-box;

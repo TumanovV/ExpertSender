@@ -28,6 +28,10 @@ body{
   &_white{
     background-color: #fff;
   }
+
+  @include phonesY{
+    width: 100%;
+  }
 }
 
 .wrapper{
@@ -46,6 +50,10 @@ body{
   position: relative;
   max-width: 480px;
   margin: 0 auto;
+
+  @include phonesY{
+    padding: 0 10px;
+  }
 }
 
 
